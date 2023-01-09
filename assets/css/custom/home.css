@@ -8,7 +8,11 @@
     justify-content: center;
 }
 
-
+.service-image {
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+}
 
 .project-thumbnail {
     height: 567px;
