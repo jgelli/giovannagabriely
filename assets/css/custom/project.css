@@ -1,0 +1,57 @@
+p {
+    margin: 0;
+}
+
+
+/* IMAGES  */
+
+/* .images > * {
+    padding: 0 0 70px 0;
+} */
+
+.images > .row {
+    margin: 0 0 70px 0;
+}
+
+.image-content {
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+
+.project-image {
+    max-height: 567px;
+    min-height: 567px;
+    height: 567px;
+    object-fit: cover;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.contact-button {
+    width: 100%;
+}
+
+.justify-center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.normal-content,
+.reversed-content  {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.reversed-content {
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+
+.image-info > p {
+    margin: 0;
+}
+
